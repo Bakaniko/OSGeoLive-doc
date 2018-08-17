@@ -365,10 +365,6 @@ What Next?
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
-The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
-
-
 .. _`Documentation page`: http://docs.qgis.org/
-.. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
-.. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
-.. _`[1]`: ../../qgis/QGIS-2.2-UserGuide-en.pdf
+.. _`A Gentle Introduction to GIS`: https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/
+.. _`QGIS User Guide`: https://docs.qgis.org/2.18/en/docs/user_manual/
