@@ -354,7 +354,7 @@ Importing OpenStreetMap data
 Things to Try
 ================================================================================
 
-* Try viewing data sources with the `QGIS Data Browser <http://planet.qgis.org/planet/tag/qgis%20browser/>`_ in the :menuselection:`Geospatial --> Databases` menu
+* Try viewing data sources with the `QGIS Data Browser <https://www.qgis.org/en/site/about/features.html#qgis-browser>`_ in the :menuselection:`Geospatial --> Databases` menu
 
 * Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>` in the :menuselection:`Geospatial --> Web Services` menu.
 
