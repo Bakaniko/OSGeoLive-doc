@@ -319,18 +319,22 @@ Importing OpenStreetMap data
 
 #. Next we need to extract points, lines, and areas, then add topology to
    each of these three new layers. To do this we need to run the tool three times.
+   
    Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite` and
    use the "..." button to select the newly created `feature_city.osm.db` file.
 
    The `Output layer name` will be automatically filled in for you depending
-   on the `Export type` selected. Click the :guilabel:`Load from DB` button
-   to load in the available tags. For the "points" layer tick the `amentity` box;
+   on the `Export type` selected. 
+   Click the :guilabel:`Load from DB` buttonto load in the available tags. 
+   
+   For the "points" layer tick the `amentity` box;
    for the "polylines" layer tick the `highway` layer; and for
    the "polygon" layer select the `building` layer. 
    
    You may wish to change the `Output layer name` to reflect the feature tags that you've selected.
-   When you are ready, press :guilabel:`Ok` to load in the layer. You will
-   need to again press the :guilabel:`Load from DB` button after changing
+   When you are ready, press :guilabel:`Ok` to load in the layer. 
+   
+   You will need to again press the :guilabel:`Load from DB` button after changing
    the export type from points to polylines, and polylines to polygons.
 
 #. Once topology is loaded, you can also refine the SpatiaLite layer by
@@ -338,7 +342,9 @@ Importing OpenStreetMap data
 
    Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
    menu and from the `Databases` list select `feature_city@...` and
-   then click on :guilabel:`Connect`. Double click on
+   then click on :guilabel:`Connect`. 
+   
+   Double click on
    the `feature_city_polylines` table and then double click on "highway"
    to start building your SQL query. 
 
