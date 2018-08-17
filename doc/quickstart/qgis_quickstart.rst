@@ -182,7 +182,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
 .. note::
     You will need to change permissions of the grass data folder in order
-    to carry out the following steps. Please open a terminal (Ctrl + Alt + t)and execute the following:
+    to carry out the following steps. Please open a terminal (Ctrl + Alt + t) and execute the following:
     "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7"
 
 #. Clear the slate with :menuselection:`Project --> New`.
@@ -290,7 +290,7 @@ Importing OpenStreetMap data
 .. TBD: Cameron comment
   Need a sentence here introducing what the OpenStreetMap tools provide.
 
-#. Open the LX Terminal Emulator from the main :menuselection:`Accessories` menu.
+#. Open the LX Terminal Emulator from the main :menuselection:`Accessories` menu or with the keyboard shortcut `Ctrl + Alt + t`.
 
    * Cut and paste the following commands into the Terminal window to create
      a working copy of the OSM data in the home directory:
@@ -312,6 +312,7 @@ Importing OpenStreetMap data
 
 #. Click on the "..." button next to "Input XML file (.osm)" and select
    the `feature_city.osm` file you just copied into the home directory.
+
    The "Output SpatialLite DB file" name will be automatically set. Click
    :guilabel:`Ok` to convert the dataset to SpatiaLite format and create
    a connection to the SpatialLite DB within QGIS.
@@ -320,28 +321,37 @@ Importing OpenStreetMap data
    each of these three new layers. To do this we need to run the tool three times.
    Select :menuselection:`Vector --> OpenStreetMap --> Export toplogy to SpatiaLite` and
    use the "..." button to select the newly created `feature_city.osm.db` file.
+
    The `Output layer name` will be automatically filled in for you depending
    on the `Export type` selected. Click the :guilabel:`Load from DB` button
    to load in the available tags. For the "points" layer tick the `amentity` box;
    for the "polylines" layer tick the `highway` layer; and for
-   the "polygon" layer select the `building` layer. You may wish to change
-   the `Output layer name` to reflect the feature tags that you've selected.
+   the "polygon" layer select the `building` layer. 
+   
+   You may wish to change the `Output layer name` to reflect the feature tags that you've selected.
    When you are ready, press :guilabel:`Ok` to load in the layer. You will
    need to again press the :guilabel:`Load from DB` button after changing
    the export type from points to polylines, and polylines to polygons.
 
 #. Once topology is loaded, you can also refine the SpatiaLite layer by
    querying just certain features from within it.
+
    Select :menuselection:`Layer --> Add Layer --> Add SpatiaLite Layer...` from the
    menu and from the `Databases` list select `feature_city@...` and
    then click on :guilabel:`Connect`. Double click on
    the `feature_city_polylines` table and then double click on "highway"
-   to start building your SQL query. Then click on the :guilabel:`=` button,
-   then the :guilabel:`All` button, and double click on `motorway` from the
-   Values list. Click the :guilabel:`Test` button to verify the result,
-   and finally click on :guilabel:`Ok`. Back in the `Add SpatiaLite Table`
-   window click :guilabel:`Add` to restrict the rendering to just major
-   highways. You can repeat this process with new layers to render different
+   to start building your SQL query. 
+
+   Then click on the :guilabel:`=` button, then the :guilabel:`All` button, 
+   and double click on `motorway` from the Values list. 
+   
+   Click the :guilabel:`Test` button to verify the result,
+   and finally click on :guilabel:`Ok`. 
+   
+   Back in the `Add SpatiaLite Table`window click :guilabel:`Add` to restrict 
+   the rendering to just major highways. 
+   
+   You can repeat this process with new layers to render different
    road types with different widths and styles.
 
    .. image:: /images/projects/qgis/QGIS_spatialite_add_layer.png
