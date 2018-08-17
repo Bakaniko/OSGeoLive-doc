@@ -3,9 +3,9 @@
 :Author: Hamish Bowman
 :Author: Zoltan Siki
 :Reviewer: Cameron Shorter, Jirotech
-:Reviewer: Nicolas Roelandt
+:Reviewer: Nicolas Roelandt, OSGeo
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive11.0
+:Version: osgeolive12.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD: Cameron's review comments:
@@ -362,14 +362,12 @@ Things to Try
 What Next?
 ================================================================================
 
-Tutorials for more advanced features of QGIS are collected as `OSGeoLive QGIS tutorials`_.
-
 To learn more about QGIS, a good starting point is the `Documentation page`_ on
 the QGIS homepage and `A Gentle Introduction to GIS`_ eBook.
 
 The `QGIS User Guide`_ `[1]`_ is also included on the OSGeoLive disc.
 
-.. _`OSGeoLive QGIS tutorials`: ../../qgis/
+
 .. _`Documentation page`: http://docs.qgis.org/
 .. _`A Gentle Introduction to GIS`: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/
 .. _`QGIS User Guide`: http://docs.qgis.org/2.8/en/docs/user_manual/
