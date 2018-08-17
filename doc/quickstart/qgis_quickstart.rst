@@ -182,7 +182,7 @@ from :doc:`GRASS GIS <../overview/grass_overview>`.
 
 .. note::
     You will need to change permissions of the grass data folder in order
-    to carry out the following steps. Please open a terminal and execute the following:
+    to carry out the following steps. Please open a terminal (Ctrl + Alt + t)and execute the following:
     "sudo chmod -R 775 /usr/local/share/grass/nc_basic_spm_grass7"
 
 #. Clear the slate with :menuselection:`Project --> New`.
