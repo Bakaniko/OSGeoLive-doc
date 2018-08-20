@@ -80,7 +80,7 @@ We will create a new one for this quickstart.
 
 .. tip:: 
    The list uses a standard unix pager - hit space for next page, :kbd:`b` to go back, :kbd:`q` 
-   to quit, h for help.
+   to quit, :kbd:`h` for help.
 
 PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to
 create a database before adding the PostGIS extensions. We'll call our database ``demo``. 
@@ -287,7 +287,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
    3 | East London,SA  | 0101000020E610000040AB064060E93B4059FAD005F58140C0
  (3 rows)
 
-This gives us an encoded hexadecimal version of the coordianates, not so useful for humans.
+This gives us an encoded hexadecimal version of the coordinates, not so useful for humans.
 
 If you want to have a look at your geometry in WKT format again, you
 can use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also
@@ -326,10 +326,14 @@ assuming a spherical earth?
   (3 rows)
 
 This gives us the distance, in metres, between each pair of
-cities. Notice how the 'WHERE' part of the line stops us getting back
+cities. 
+
+Notice how the 'WHERE' part of the line stops us getting back
 distances of a city to itself (which will all be zero) or the reverse
 distances to the ones in the table above (London, England to London, Ontario is the
-same distance as London, Ontario to London, England). Try it without the 'WHERE' part
+same distance as London, Ontario to London, England). 
+
+Try it without the 'WHERE' part
 and see what happens.
 
 We can also compute the distance using a spheroid by using a different function and specifying the
@@ -457,7 +461,7 @@ Get to know pgAdmin III
 
 You can use the graphical database client ``pgAdmin III`` from the Databases menu to query and modify your database non-spatially. This
 is the official client for PostgreSQL, and lets you use SQL to manipulate your data tables. You can find and launch pgAdmin III 
-from the Databases folder, existing on the OSGeo Live Desktop.
+from the Databases folder, existing in the OSGeoLive.
 
 .. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
