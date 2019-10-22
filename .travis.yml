@@ -47,4 +47,4 @@ deploy:
   local_dir:  build/doc/_build/html/
   verbose: true
   on:
-    branch: master # switch to master when ok
+    branch: quickstart # switch to master when ok
