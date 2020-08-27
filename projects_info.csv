@@ -92,7 +92,7 @@ Y | inspire | NA | N | Y | Geospatial Standards | | Infrastructure for Spatial I
 ###################### | | | | | | | | | | | |
 # RETIRED | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
-N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52°North WSS | N
+N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52 North WSS | N
 N | atlasstyler | retired | Y | Y | | 6 | Style Editor, retired after OSGeoLive 6.0 | Geopublishing | http://en.geopublishing.org/AtlasStyler | | AtlasStyler | N
 N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro | N
 N | geopublisher | retired | Y | Y | | 6 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher | N
